@@ -80,6 +80,10 @@ ul , li{
     border: 1px solid black;
 }
 
+.debug .footer{
+    padding: 20px 20px 0 20px;
+}
+
 .debug .button-footer , .logo-footer{
     border: 1px solid black;
 }
@@ -150,6 +154,8 @@ flex-direction: row-reverse;
     min-height: 200px;
     background-color: aquamarine;
 }
+
+
 
 
 .col-footer{
