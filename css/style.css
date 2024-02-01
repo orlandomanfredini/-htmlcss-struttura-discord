@@ -1,0 +1,19 @@
+/* RESET */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, menu{
+    list-style: none;
+}
+
+.container img{
+    max-width: 100%;
+}
+
+/* DEBUG */
+
+/* LAYOUT */
