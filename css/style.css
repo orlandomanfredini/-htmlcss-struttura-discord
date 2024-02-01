@@ -60,6 +60,9 @@ ul , li{
     background-color: white;
 }
 
+.debug .section-3{
+    background-color: #cecece;
+}
 
 
 /* LAYOUT */
@@ -105,5 +108,9 @@ header{
     min-width: 30%;
     min-height: 200px;
     background-color: pink;
+}
+
+.reverse{
+flex-direction: row-reverse;
 }
 
