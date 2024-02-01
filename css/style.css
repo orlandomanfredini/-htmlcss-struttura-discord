@@ -64,6 +64,10 @@ ul , li{
     background-color: #cecece;
 }
 
+.debug .section-5{
+    background-color: #dedede;
+}
+
 
 /* LAYOUT */
 
@@ -112,5 +116,11 @@ header{
 
 .reverse{
 flex-direction: row-reverse;
+}
+
+.col-3{
+    min-width: 100%;
+    min-height: 500px;
+    background-color: green;
 }
 
