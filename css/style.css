@@ -108,7 +108,8 @@ header{
 .link-list{
     width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 15px;
 }
 
 .login{
