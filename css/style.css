@@ -27,9 +27,6 @@ ul , li{
 .debug .row-flex{
     display: flex;
     padding: 20px;
-    
-    
-    
 }
  
 
@@ -83,6 +80,8 @@ ul , li{
 
 .debug .button-footer , .logo-footer{
     border: 1px solid black;
+    
+    
 }
 
 
@@ -154,7 +153,13 @@ flex-direction: row-reverse;
     background-color: aquamarine;
 }
 
-.footer{
+
+.col-footer{
     background-color: aquamarine;
+    min-width: 100%;
+    min-height: 50px;
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
