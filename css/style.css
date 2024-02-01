@@ -68,6 +68,13 @@ ul , li{
     background-color: #dedede;
 }
 
+.debug .foot-section{
+    background-color: rgb(55, 55, 55);
+}
+
+.debug .col-5{
+    border: 1px solid black;
+}
 
 /* LAYOUT */
 
@@ -124,3 +131,14 @@ flex-direction: row-reverse;
     background-color: green;
 }
 
+.col-4{
+    min-width: 220px;
+    min-height: 200px;
+    background-color: red;
+}
+
+.col-5{
+    min-width: 110px;
+    min-height: 200px;
+    background-color: aquamarine;
+}
