@@ -29,6 +29,7 @@ ul , li{
     padding: 20px;
     
     
+    
 }
  
 
@@ -75,6 +76,16 @@ ul , li{
 .debug .col-5{
     border: 1px solid black;
 }
+
+.debug .foot-link{
+    background-color: rgb(108, 107, 107);
+}
+
+.debug .button-footer , .logo-footer{
+    border: 1px solid black;
+}
+
+
 
 /* LAYOUT */
 
@@ -141,4 +152,9 @@ flex-direction: row-reverse;
     min-width: 110px;
     min-height: 200px;
     background-color: aquamarine;
+}
+
+.footer{
+    background-color: aquamarine;
+    justify-content: space-between;
 }
