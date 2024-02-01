@@ -52,32 +52,32 @@ ul , li{
     border: 1px solid black;
 }
 
-.debug .section-1{
+.debug .bg-color-blue{
     background-color: blue;
 }
 
-.debug .section-2{
+.debug .bg-color-white{
     background-color: white;
 }
 
-.debug .section-3{
+.debug .bg-color-cecece{
     background-color: #cecece;
 }
 
-.debug .section-5{
+.debug .bg-color-dedede{
     background-color: #dedede;
 }
 
-.debug .foot-section{
+.debug .foot-bg-color{
     background-color: rgb(55, 55, 55);
+}
+
+.debug .foot-link-bg-color{
+    background-color: rgb(108, 107, 107);
 }
 
 .debug .col-5 , .col-6 , .col-7 , .col-8{
     border: 1px solid black;
-}
-
-.debug .foot-link{
-    background-color: rgb(108, 107, 107);
 }
 
 .debug .button-footer , .logo-footer{
@@ -92,7 +92,7 @@ header{
     background-color: aqua;
 }
 
-.row-flex{
+.center{
     justify-content: center;
 }
 
