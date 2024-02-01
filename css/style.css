@@ -23,6 +23,13 @@ ul , li{
     max-width: 700px;
 }
 
+
+.debug .row{
+    display: flex;
+    padding: 20px;
+    
+    
+}
  
 
 .debug .link-list{
@@ -45,6 +52,10 @@ ul , li{
     border: 1px solid black;
 }
 
+.debug .section-1{
+    background-color: blue;
+}
+
 
 
 /* LAYOUT */
@@ -54,11 +65,9 @@ header{
 }
 
 .row{
-    display: flex;
-    padding: 10px;
-    
-    
+    justify-content: center;
 }
+
 
 .logo{
     width: 25%;
@@ -74,4 +83,10 @@ header{
 
 .login{
     width: 25%;
+}
+
+.col{
+    min-width: 70%;
+    min-height: 200px;
+    background-color: pink;
 }
