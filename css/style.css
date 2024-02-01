@@ -24,7 +24,7 @@ ul , li{
 }
 
 
-.debug .row{
+.debug .row-flex{
     display: flex;
     padding: 20px;
     
@@ -56,6 +56,10 @@ ul , li{
     background-color: blue;
 }
 
+.debug .section-2{
+    background-color: white;
+}
+
 
 
 /* LAYOUT */
@@ -64,7 +68,7 @@ header{
     background-color: aqua;
 }
 
-.row{
+.row-flex{
     justify-content: center;
 }
 
@@ -90,3 +94,16 @@ header{
     min-height: 200px;
     background-color: pink;
 }
+
+.col-1{
+    min-width: 70%;
+    min-height: 200px;
+    background-color: blue;
+}
+
+.col-2{
+    min-width: 30%;
+    min-height: 200px;
+    background-color: pink;
+}
+
